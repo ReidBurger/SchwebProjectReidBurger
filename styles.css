@@ -1,8 +1,5 @@
 /* Phones */
 @media (max-width: 600px) {
-    .button {
-        justify-self: center;
-    }
 
     .main-content-container {
         padding: 20px;
@@ -56,7 +53,6 @@
     border-radius: 0;
     background-color: white;
     padding: 14px 40px;
-    font-size: 20px;
     color: #c97f7f;
     border-radius: 2px;
     border: 2px solid #c97f7f;
@@ -65,19 +61,18 @@
 }
 
 .image-container-1 {
-    width: 100%;
-    position: relative;
-    margin-bottom: 0;
-    padding-bottom: 0;
     background-color: #b176de;
 }
 
 .image-container-2 {
+    background-color: #8bde85;
+}
+
+.image-container-bg {
     width: 100%;
     position: relative;
     margin-bottom: 0;
     padding-bottom: 0;
-    background-color: #8bde85;
 }
 
 .bottom-container {
