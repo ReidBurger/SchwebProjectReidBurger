@@ -1,5 +1,5 @@
 /* Phones */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .button {
         justify-self: center;
     }
@@ -10,7 +10,7 @@
 }
 
 /* Desktop */
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .main-content-container {
         display: flex;
         padding: 60px 20px;
@@ -19,6 +19,10 @@
 
     .bottom-container {
         display: flex;
+    }
+
+    .button {
+        max-width: 280px;
     }
 }
 
@@ -49,7 +53,6 @@
 
 .button {
     width: 100%;
-    max-width: 280px;
     border-radius: 0;
     background-color: white;
     padding: 14px 40px;
@@ -57,7 +60,8 @@
     color: #c97f7f;
     border-radius: 2px;
     border: 2px solid #c97f7f;
-
+    justify-self: center;
+    font-size: 22px;
 }
 
 .image-container-1 {
